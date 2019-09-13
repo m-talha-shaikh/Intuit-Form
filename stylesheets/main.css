@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    background-color: #eceef1 ;
+}
+
+nav {
+    display:flex ;
+    justify-content: flex-end ;
+    margin-right: 10px ;
+    color:black;
+}
+
+.user {
+   font-family: AvenirNext,
+   Avenir,
+   "Helvetica Neue",
+   Helvetica,
+   Arial sans-serif ;
+   font-size: 15px ;
+   margin: auto 5px ;
+}
+
+input {
+    margin : 10px 20px ;
+}
+
+.button {
+    padding: 0 20px ;
+    font-family :Arial ;
+    background-color: #0077C5 ;
+    border:1px solid #4c4c4c ;
+    border-radius: 4px ;
+    color:white ;
+    font-size: 1.125em;
+    text-align: center ;
+    font-family: serif ;
+    height: 34px ;.
+
+
+}
+
+main {
+    clear: both ;
+    width: 35% ;
+    margin: auto ;
+    width: 380px;
+    height: 650px ;
+}
+
+.logo {
+    width:147px ;
+    height: 50px ;
+    margin: 5px auto ;
+}
+
+.logo img {
+    width: 100% ;
+    height: auto ;
+}
+
+.small-logos {
+    display: flex ;
+    justify-content: center ;
+}
+
+.small-logos div {
+    display: flex ;
+    margin: 0 5px ;
+}
+
+.small-logos div p {
+    font-family: Montserrat , sans-serif ;
+    font-size: ;
+    color: #808080;
+    text-align: center ;
+    padding-top : 5px ;
+    padding-left: 4px ;
+    font-size: 19.5px ;
+}
+
+
+footer {
+    background-color: yellowgreen ;
+}
